@@ -1,4 +1,4 @@
-package entity;
+package model.entity;
 
 public class Reserva {
 
@@ -8,6 +8,9 @@ public class Reserva {
     private String data;
     private String horario;
     private String status;
+
+    public Reserva(int id, Usuario usuario, Sala sala, String data, String horario) {
+    }
 
     public int getId() {
         return id;
